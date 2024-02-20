@@ -5,25 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uber - Nunca foi assim tão fácl viajar!</title>
     <link rel="stylesheet" href="/styles/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <!-- Header -->
     <header class="w-full h-20 bg-black">
-      <div class="flex items-center justify-between w-full h-20 px-2 max-w-7xl mx-auto flex-wrap">
+      <div
+        class="flex items-center justify-between w-full h-20 px-2 max-w-7xl mx-auto flex-wrap"
+      >
         <div class="flex gap-5 items-center justify-center flex-wrap">
           <img src="/src/assets/uberlogo.png" alt="" class="w-20 mr-5" />
-          <div class="hidden text-white sm:flex gap-5 font-medium ">
-            <a href="#" class="hover:bg-slate-600 duration-500 p-2 rounded-lg transition-colors">Company</a>
-            <a href="#" class="hover:bg-slate-600 duration-500 p-2 rounded-lg transition-colors">Safeety</a>
-            <a href="#" class="hover:bg-slate-600 duration-500 p-2 rounded-lg transition-colors">Help</a>
+          <div class="hidden text-white sm:flex gap-5 font-medium">
+            <a
+              href="#"
+              class="hover:bg-slate-600 duration-500 p-2 rounded-lg transition-colors"
+              >Company</a
+            >
+            <a
+              href="#"
+              class="hover:bg-slate-600 duration-500 p-2 rounded-lg transition-colors"
+              >Safety</a
+            >
+            <a
+              href="#"
+              class="hover:bg-slate-600 duration-500 p-2 rounded-lg transition-colors"
+              >Help</a
+            >
           </div>
         </div>
-        
+
         <div class="flex gap-2 items-center">
-            <a href="#" class="text-white font-medium">Login</a>
-            <a href="#" class="bg-white px-2 py-1 rounded-full font-medium hover:bg-black hover:text-white duration-500 transition-colors">Sign up</a>
+          <a href="#" class="text-white font-medium">Login</a>
+          <a
+            href="#"
+            class="bg-white px-2 py-1 rounded-full font-medium hover:bg-black hover:text-white duration-500 transition-colors"
+            >Sign up</a
+          >
         </div>
       </div>
     </header>
+    <!-- End Header -->
+
+    <!-- Hero -->
+    <main class="w-full bg-uber bg-no-repeat bg-cover bg-left sm:py-9 ">
+      <div class="w-full  max-w-7xl  mx-auto">
+      <div class="w-full max-w-lg bg-white">
+        <div class="bg-slate-100 flex-1 flex justify-center items-center pt-5 w-full">
+          <section class="flex-1 flex justify-center items-center flex-col gap-2">
+            <i class="fa fa-signal" style="font-size: 30px"></i>
+            <p class="text-center font-medium">Faça viagens ou entregas</p>
+            <div class="bg-black h-[3pt] mt-2 w-full"></div>
+          </section>
+  
+          <section class="flex-1 flex flex-col gap-2 justify-center items-center">
+            <i class="fa fa-car" style="font-size: 30px"></i>
+            <p class="text-center font-medium">Viajar</p>
+           
+          </section>
+  
+          <section class="flex-1 flex flex-col gap-2 justify-center items-center">
+            <i class="fa fa-key" style="font-size: 30px"></i>
+            <p class="text-center font-medium">Alugue seus carros</p>
+            
+          </section>
+        </div>
+
+        <div class="flex flex-col p-8 gap-10">
+            <h1 class="text-4xl font-bold">Assuma o comando e ganhe</h1>
+
+            <p class="w-[320px]">Dirija na plataforma com a maior rede de usuários ativos.</p>
+
+            <button type="button" class="bg-black self-start text-white px-8 py-2 rounded-lg hover:scale-110 duration-500">Cadastre-se para dirigir</button>
+
+            <a href="#" class="text-slate-600 border-b-2 border-slate-300 self-start pb-2 hover:border-none">Saiba mais sobre como dirigir e fazer entregas</a>
+        </div>
+      </div>
+    </div>
+    </main>
+    <!-- End Hero -->
   </body>
 </html>
