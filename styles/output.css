@@ -589,6 +589,14 @@ video {
   max-width: 32rem;
 }
 
+.max-w-sm {
+  max-width: 24rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -603,6 +611,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -625,6 +637,10 @@ video {
   gap: 1.25rem;
 }
 
+.gap-7 {
+  gap: 1.75rem;
+}
+
 .self-start {
   align-self: flex-start;
 }
@@ -637,12 +653,12 @@ video {
   border-radius: 0.5rem;
 }
 
-.border-b-2 {
-  border-bottom-width: 2px;
+.rounded-md {
+  border-radius: 0.375rem;
 }
 
-.border-none {
-  border-style: none;
+.border-b-2 {
+  border-bottom-width: 2px;
 }
 
 .border-slate-300 {
@@ -669,12 +685,20 @@ video {
   background-image: url("/src/assets/bguber.png");
 }
 
+.bg-city {
+  background-image: url("/src/assets/bg-city.png");
+}
+
 .bg-cover {
   background-size: cover;
 }
 
 .bg-left {
   background-position: left;
+}
+
+.bg-right {
+  background-position: right;
 }
 
 .bg-no-repeat {
@@ -709,6 +733,21 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -724,6 +763,16 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
@@ -754,9 +803,19 @@ video {
   transition-duration: 500ms;
 }
 
+.duration-150 {
+  transition-duration: 150ms;
+}
+
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -784,15 +843,29 @@ video {
     display: flex;
   }
 
+  .sm\:max-w-lg {
+    max-width: 32rem;
+  }
+
+  .sm\:max-w-7xl {
+    max-width: 80rem;
+  }
+
+  .sm\:max-w-xl {
+    max-width: 36rem;
+  }
+
+  .sm\:max-w-2xl {
+    max-width: 42rem;
+  }
+
   .sm\:py-9 {
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
   }
-}
 
-@media (min-width: 768px) {
-  .md\:py-9 {
-    padding-top: 2.25rem;
-    padding-bottom: 2.25rem;
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
